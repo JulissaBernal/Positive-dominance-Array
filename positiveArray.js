@@ -7,9 +7,9 @@
 const positiDominant=(array)=>{
 let arrayNegativos=array.filter((number)=> number < 0)
 if(arrayNegativos.length > array.length/2){
-   console.log("true")
+   console.log("false")
 }else{
-    console.log("false")
+    console.log("true")
 }
 return;
 }
